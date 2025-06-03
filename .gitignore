@@ -43,3 +43,23 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Platform folders to ignore
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+
+# IDEs
+.vscode/
+
+# System files
+Thumbs.db
+
+# Lock and metadata files (optional for apps)
+.metadata
+
+# If it's a package, uncomment the next line to ignore the lock file
+pubspec.lock
